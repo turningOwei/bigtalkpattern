@@ -7,6 +7,7 @@ import practice.responsiblitychain.response.DataSourceResponse;
  * Created by 002465 on 2017/10/13.
  */
 public abstract class DataSourceApiUtil <A extends DataSourceRequest,B extends DataSourceResponse>{
+    private boolean isFinalNode;
     /**责任链传递值*/
     protected DataSourceApiUtil successor;
     public abstract B getData(A request);
@@ -17,5 +18,13 @@ public abstract class DataSourceApiUtil <A extends DataSourceRequest,B extends D
 
     public void setSuccessor(DataSourceApiUtil successor) {
         this.successor = successor;
+    }
+
+    public boolean isFinalNode() {
+        return isFinalNode;
+    }
+
+    public void setFinalNode(boolean finalNode) {
+        isFinalNode = finalNode;
     }
 }

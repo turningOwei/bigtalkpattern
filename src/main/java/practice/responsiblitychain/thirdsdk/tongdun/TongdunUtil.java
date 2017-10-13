@@ -29,6 +29,7 @@ public class TongdunUtil extends DataSourceApiUtil{
         response.setGetDataIsSuccess(false);
         boolean isSuccess = response.isGetDataIsSuccess();
         if(!isSuccess){
+            System.out.println("进入下一节点:"+this.successor.getClass().getName());
             return this.successor.getData(request);
         }
         return response;
