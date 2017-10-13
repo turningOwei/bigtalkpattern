@@ -2,9 +2,6 @@ package practice.responsiblitychain.thirdsdk;
 
 import practice.responsiblitychain.request.DataSourceRequest;
 import practice.responsiblitychain.response.DataSourceResponse;
-import practice.responsiblitychain.thirdsdk.fahai.FahaiUtil;
-import practice.responsiblitychain.thirdsdk.tongdun.TongdunUtil;
-import practice.responsiblitychain.thirdsdk.zhengxinyong.ZhengxinyongUtil;
 import practice.responsiblitychain.util.DataSourceApiUtil;
 
 import java.lang.reflect.InvocationTargetException;
