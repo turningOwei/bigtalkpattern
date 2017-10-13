@@ -27,7 +27,7 @@ public class ZhengxinyongUtil extends DataSourceApiUtil{
         DataSourceResponse response = new ZhengxinyongResponse();
         response.setMessage("正信用信息");
         /**便于测试设置成false*/
-        response.setGetDataIsSuccess(false);
+        response.setGetDataIsSuccess(true);
         boolean isSuccess = response.isGetDataIsSuccess();
         if(!isSuccess){
             System.out.println("进入下一节点:"+this.successor.getClass().getName());
