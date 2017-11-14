@@ -1,0 +1,11 @@
+public sealed class Singleton   //sealed 阻止发生派生,而派生会增加实例。
+{
+    private static readonly Singleton instance = new Singleton();//在第一次引用类的任何成员时创建实例。公共语言运行库负责处理变量初始化
+
+    private Singleton(){}
+
+    public static Singleton GetInstance(){
+        return instance;
+    }
+
+}
