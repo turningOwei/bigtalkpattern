@@ -8,4 +8,5 @@ public enum Singleton {
 
     public void whateverMethod() {
     }
+
 }
