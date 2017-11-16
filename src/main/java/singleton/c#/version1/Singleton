@@ -1,0 +1,18 @@
+class Singleton
+{
+    private static Singleton instance;
+
+    /**构造方法私有化*/
+    private Singleton()
+    {
+    }
+
+    public static Singleton GetInstance()
+    {
+        if(instance == null)
+        {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
