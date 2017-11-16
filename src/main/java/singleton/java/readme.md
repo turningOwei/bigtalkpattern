@@ -1,5 +1,5 @@
-##参考博客http://www.blogjava.net/kenzhh/archive/2013/03/15/357824.html##
-##参考书籍《大话设计模式》、《head first 设计模式》##
+##参考博客http://www.blogjava.net/kenzhh/archive/2013/03/15/357824.html
+##参考书籍《大话设计模式》、《head first 设计模式》
 
 
 | 实现方式                              | 是否调用构造函数
